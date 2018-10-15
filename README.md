@@ -1,6 +1,9 @@
 # bs-guid
 
-Simple, fast generation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDs for Reason.
+> Simple, fast generation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDs for Reason.
+
+[![NPM Version](https://img.shields.io/npm/v/bs-guid.svg)](https://npmjs.org/package/bs-guid)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 bs-guid is a statically typed interface to [node-uuid](https://github.com/kelektiv/node-uuid).
 
