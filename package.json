@@ -1,0 +1,26 @@
+{
+  "name": "bs-guid",
+  "version": "1.0.0",
+  "description": "BuckleScript bindings for node-uuid",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w"
+  },
+  "keywords": [
+    "uuid",
+    "guid",
+    "rfc4122",
+    "bucklescript",
+    "reason"
+  ],
+  "repository": "git@github.com:aszecsei/bs-guid.git",
+  "author": "Alic Szecsei <aszecsei@gmail.com>",
+  "license": "Unlicense",
+  "private": false,
+  "dependencies": {
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.6"
+  }
+}
