@@ -4,7 +4,19 @@
   "description": "BuckleScript bindings for node-uuid",
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w"
+    "start": "bsb -make-world -w",
+    "commit": "git-cz",
+    "prepush": "npm run build",
+    "commitmsg": "validate-commit-msg"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": "conventional-commit-types",
+      "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
+    }
   },
   "keywords": [
     "uuid",
@@ -21,6 +33,10 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "bs-platform": "^4.0.6"
+    "bs-platform": "^4.0.6",
+    "commitizen": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.1.2",
+    "validate-commit-msg": "^2.14.0"
   }
 }
