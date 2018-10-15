@@ -7,7 +7,7 @@ bs-platform@^4.0.6:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.6.tgz#e7f156c77ad3efafb0c0291b41dcf1b06f93c192"
   integrity sha512-TrNzQFoV6opBYdUgcRdgQQ5f6JnKgotPFZORIjuHPtRlYgv37P6xVBTGfA4NlMCkHXHcPrL6JI63GyAcfq+qpg==
 
-node-uuid@^1.4.8:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
-  integrity sha1-sEDrCSOWivq/jTL7HxfxFn/auQc=
+uuid@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==

@@ -2,3 +2,5 @@
 .vscode
 .idea
 /lib/bs
+/example
+/lib/js/example

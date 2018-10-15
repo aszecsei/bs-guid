@@ -8,5 +8,11 @@
     "-warn-error",
     "-a+8"
   ],
-  "sources": "src"
+  "sources": [{
+    "dir": "src"
+  },
+  {
+    "dir": "example",
+    "type": "dev"
+  }]
 }
