@@ -1,5 +1,5 @@
 {
-  "name": "bs-uuid",
+  "name": "bs-guid",
   "refmt": 3,
   "bsc-flags": [
     "-bs-super-errors",
